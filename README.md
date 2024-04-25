@@ -31,6 +31,8 @@ BatParamFetcher -l domains.txt -o output
 ```
 BatParamFetcher will fetch URLs from the Wayback Machine for each domain, clean the URLs, and save the cleaned URLs to files in the specified output directory.
 
+Please note that BatParamFetcher is intended for educational and testing purposes only. Use it responsibly and with permission.
+
 # License
 
 This project is licensed under the MIT License.
