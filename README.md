@@ -1,6 +1,6 @@
 # BatParamFetcher
 
-BatParamFetcher is a Go program that fetches URLs from the Wayback Machine for a list of domains, cleans the URLs by replacing query parameters with placeholders, and saves the cleaned URLs to files.
+BatParamFetcher swoops into action, retrieving URLs from the Wayback Machine for a league of domains. With its keen eye for detail, it scrubs the URLs clean by replacing query parameters with placeholders, ensuring they're ready for their next adventure. Finally, it saves these polished URLs to files, ready to take flight into the world wide web.
 
 # Installation 
 
