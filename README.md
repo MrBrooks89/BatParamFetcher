@@ -17,9 +17,9 @@ BatParamFetcher -l path/to/domain-list.txt
 
 Optional flags:
 
-    -h: Show usage information.
-    -l: Path to a file containing a list of domains (required).
-    -o: Path to the output directory for the cleaned URLs (default is results).
+-h: Show usage information.
+-l: Path to a file containing a list of domains (required).
+-o: Path to the output directory for the cleaned URLs (default is results).
 
 Example:
 
