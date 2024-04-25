@@ -26,10 +26,11 @@ Optional flags:
 -o: Path to the output directory for the cleaned URLs (default is results).
 ```
 Example:
-
+```
 BatParamFetcher -l domains.txt -o output
-
+```
 BatParamFetcher will fetch URLs from the Wayback Machine for each domain, clean the URLs, and save the cleaned URLs to files in the specified output directory.
-License
+
+# License
 
 This project is licensed under the MIT License.
