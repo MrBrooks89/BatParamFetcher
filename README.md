@@ -15,7 +15,9 @@ This will download and install the latest version of BatParamFetcher to your Go 
 
 Use the following command to run BatParamFetcher:
 
+```
 BatParamFetcher -l path/to/domain-list.txt
+```
 
 Optional flags:
 ```
