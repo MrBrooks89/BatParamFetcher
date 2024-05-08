@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"regexp"
 	"strings"
 	"sync"
 
@@ -116,6 +117,11 @@ func FetchUrlsFromWaybackMachine(domain string) ([]string, error) {
 func CleanUrls(urls []string, placeholder string) []string {
 	cleanedUrls := make(map[string]struct{})
 	for _, u := range urls {
+		// Skip URLs with multiple occurrences of http:// or https://
+		if regexp.MustCompile(`(?:https?://){2,}`).MatchString(u) {
+			continue
+		}
+
 		cleanedUrl := CleanUrl(u)
 		if strings.Contains(cleanedUrl, "?") {
 			parts := strings.Split(cleanedUrl, "?")
